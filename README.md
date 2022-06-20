@@ -1,4 +1,4 @@
-# DTI-tudengit-de-portaal
+# DTI-tudengitööde-portaal
 
 ![Screenshot (4)](https://user-images.githubusercontent.com/90316656/174557210-f561a878-9acb-463f-b9ef-5e7b9e45dcfa.png)
 
