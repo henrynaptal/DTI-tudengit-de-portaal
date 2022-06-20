@@ -42,10 +42,22 @@ Morten-Paul Mühlberg
 
 # Kasutusjuhend
 
-1.
+1. Paigaldage arvutisse uusim versioon XAMPP’ist.
+2. Laadige alla meie projekti repositoorium Githubist.
+3. Avage XAMPP ning vajutage nupule “Explorer”, seejärel avaneb teile XAMPP’i kaust.
+4. Avage XAMPP’i kaustas olev “htdocs” kaust.
+5. Tõstke alla laetud projekti repositooriumi seest kaust “dti_portaal” kausta “htdocs”.
+6. Avage htdocsis asuv “dti_portaal” kaust ning seejärel “database” kaust.
+7. Avage “config.php” fail mõne teksti redigeerimise programmiga(Nt: Notepad, Visual Studio Code) ning muutke failis olevad parameetrid selliseks nagu nad on pildil:
+![Pildike](https://user-images.githubusercontent.com/90316656/174602648-5a1789ec-99ad-447f-a6cb-d6cd2262aa1c.PNG)
 
-2.
-
+8. Salvestage “config.php” fail ning sulgege see.
+9. Suunduge XAMPP’i ja käivitage Apache ning MySQL moodulid nupust “Start”.
+10. Avage endale meelepärases veebibrauseris leht “localhost/phpmyadmin” või vajutage XAMPP’is nupule “Admin”, mis on MySQL’ga samal joonel. 
+11. Avaneb andmebaasi leht, kuhu peate importima meie projekti andmebaasi tabelid.
+12. Esmalt valige vasakult menüüst nupp “New” ja määrake andmebaasi nimeks “if21_dti_portaal” ning seejärel vajutage nuppu “Create”.
+13. Andmebaasi importimiseks peate klikkima vasakul menüüs olevale “if21_dti_portaal” nupule ja suunduma andmebaasis üleval riba peal olevale “import” lehele ning valima meie projekti kaustast(C:\xampp\htdocs\dti_portaal) faili “if21_dti_portaal.sql” ja seejärel vajutama lehe allpool olevat nuppu “import”.
+14. Kui kõik sujust hästi, siis nüüd on meie portaal kasutamiseks valmis. Selleks suunduge lehele: “localhost/dti_portaal/login.php”
 
 # Lingid
 
