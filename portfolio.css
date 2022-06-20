@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root{
+    --main-color: #D41D47;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.animate-character{
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 62px;
+    position: relative;
+    margin: 30px;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("img/taust4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-left: 30rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #D41D47;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    flex-flow: column;
+    padding: 8rem 2rem;
+    width: 30rem;
+    text-align: center;
+}
+
+header.logo{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+header .logo span{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+header .navbar a{
+    display: block;
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: #FFFFFF;
+}
+
+header .navbar a:hover{
+    letter-spacing: .2rem;
+    color: #FFE3DD;
+}
+
+header .follow a{
+    font-size: 2.5rem;
+    color:#FFFFFF;
+    margin: 0.7rem;
+}
+
+header .follow a:hover{
+    color: #FFE3DD;
+}
+
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+}
+
+.title {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 32px;
+}
+
+.search input[type=text]{
+    width:200px;
+    height:25px;
+    border-radius:10px;
+    border: none;
+}
+
+.search button{
+    background-color: #D41D47;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: -15px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.header{
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: left;
+}
+
+#portfolio-form {
+    display: grid;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    position: relative;
+    font-size: 21px;
+    border-radius: 30px;
+    padding: 20px;
+    height: 400px;
+    
+}
+
+#container {
+    text-align: left;
+    align-self: flex-start;
+    display: flex;
+    left: 50px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 90%;
+    height: 1000px;
+    width: 1590px;
+}
+
+#container1 {
+    text-align: left;
+    margin: 20px auto;
+    background-color: #D41D47;
+    border-radius: 30px;
+    opacity: 90%;
+    height: 600px;
+    width: 1000px;
+    margin-left: 20px;
+}
+  
+.container1 h1{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+
+#container2 {
+    text-align: left;
+    margin: 20px auto;
+    background-color: #D41D47;
+    border-radius: 30px;
+    opacity: 90%;
+    height: 600px;
+    width: 400px;
+    margin-right: 60px;
+}
+  
+.container2 h1{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+
+#save-button{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #D41D47;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow:none;
+    margin-top: 20px;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.container2 .user{
+    background: #D41D47;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 390px;
+    padding: 20px;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 10%;
+}
+
+.container2 .user h3{
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-top: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+  
+.container2 .user .task{
+    color: rgb(31, 97, 104);
+    margin: 12px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+  
+.container2 .user .profile_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin-top: 0px;
+    margin: auto;
+}
+  
+.container2 .user .profile_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#description_input{
+    height: 400px;
+    width: 958px;
+    resize: none;
+}
+
+.gallery{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    color: #FFFFFF;
+}

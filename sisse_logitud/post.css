@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root{
+    --main-color: #D41D47;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.animate-character{
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 62px;
+    position: relative;
+    margin: 30px;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+	height: 100%;
+	width: 100%;
+
+}
+
+body{
+    background-image: url("img/taust4.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-left: 30rem;
+	height: 100%;
+	width: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #D41D47;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    flex-flow: column;
+    padding: 8rem 2rem;
+    width: 30rem;
+    text-align: center;
+}
+
+header.logo{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+header .logo span{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+header .navbar a{
+    display: block;
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: #FFFFFF;
+}
+
+header .navbar a:hover{
+    letter-spacing: .2rem;
+    color: #FFE3DD;
+}
+
+header .follow a{
+    font-size: 2.5rem;
+    color:#FFFFFF;
+    margin: 0.7rem;
+}
+
+header .follow a:hover{
+    color: #FFE3DD;
+}
+
+.title {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 32px;
+}
+
+.search input[type=text]{
+    width:200px;
+    height:25px;
+    border-radius:10px;
+    border: none;
+}
+
+.search button{
+    background-color: #D41D47;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: -15px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.container{
+
+    position: relative;
+	width: 100%;
+	height: 5%;
+	display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:stretch;
+
+
+
+}
+
+.container h1{
+    font-size: 56px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mina{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+	height: 10%;
+}
+
+.mina .minust{
+    background: #D41D47;
+    margin: 80px;
+    width: 57.5%;
+	
+    padding: 70px;
+    line-height: 25px;
+    color: #FFFFFF;
+    position: relative;
+    border-radius: 20px;
+}
+
+.mina .minust h3{
+    color: #FFFFFF;
+    font-size: 42px;
+    margin-top: 20px;
+}
+  
+.mina .minust .uni{
+    color: #FFFFFF;
+    margin: 12px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+	
+}
+  
+.mina .minust .pic{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #000000;
+}
+  
+.mina .minust .pic img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.mina .minust .about{
+    font-size: 12px;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+}

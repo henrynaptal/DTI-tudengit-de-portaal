@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root{
+    --main-color: #D41D47;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.animate-character{
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+    );
+    background-clip: border-box;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    font-size: 458%;
+    margin-top: 4%;
+    padding-left: 0%;
+
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url("img/taust4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 25%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #D41D47;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    flex-flow: column;
+    padding: 3% 1%;
+    width: 30rem;
+    text-align: center;
+    margin: 0%;
+}
+
+header.logo{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+header .logo span{
+    color: #FFFFFF;
+}
+
+header .navbar a{
+    display: block;
+    font-size: 190%;
+    margin: 15% 0;
+    color: #FFFFFF;
+}
+
+header .navbar a:hover{
+    letter-spacing: .2rem;
+    color: #FFE3DD;
+}
+
+header .follow a{
+    font-size: 190%;
+    color:#FFFFFF;
+    margin: 0.7rem;
+}
+
+header .follow a:hover{
+    letter-spacing: .2rem;
+    color: #FFE3DD;
+}
+
+.animate-character{
+    display: inline-block;
+    text-align: left;
+    display: flex;
+    font-size: 458%;
+    margin-top: 50px;
+    margin-right: 30%;
+    padding-left: 0%;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+}
+
+.title {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 300%;
+    float: left;
+}
+
+.posts {
+    background-color: var(--bg-color);
+    padding: 40px 0;
+    margin-top: 4rem;
+    margin-right: 30%;
+    position: relative;
+}
+
+.search input[type=text]{
+    width:200px;
+    height:25px;
+    border-radius:10px;
+    border: none;
+}
+
+.search button{
+    background-color: #D41D47;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: -15px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.erialad{
+	position: relative;
+    align-items: left;
+    justify-content: space-between;
+    flex-flow: column;
+    width: 30rem;
+    margin-top: 3%;
+}
+
+.erialad .bakatitle{
+	font-size: 300%;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+    border: 3px solid #D41D47;
+    border-radius: 20px;
+    display: inline;
+    padding: 3%;
+    margin: 3%;
+}
+
+.erialad .magistertitle{
+	font-size: 300%;;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+    border: 3px solid #D41D47;
+    border-radius: 20px;
+    display: inline;
+    padding: 3%;
+    margin: 3%;
+}
+
+.erialad .bakaerialad{
+	font-size: 18px;
+    margin-left: 20px;
+    margin-top: 5%;
+
+}
+
+.erialad .magistererialad{
+	font-size: 18px;
+    margin-left: 20px;
+    margin-top: 5%;
+}
+
+.erialad .bakaerialad a:hover {
+    color:#D41D47;
+}
+
+.erialad .bakaerialad a{
+    color: black;
+}
+
+.erialad .magistererialad a:hover {
+    color:#D41D47;
+}
+
+.erialad .magistererialad a {
+    color:black;
+}

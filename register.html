@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="register.js"></script>
+    <link rel="stylesheet" href="registerStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Konto loomise leht</title>
+</head>
+<body>
+    <form name="register" id="register" class="registration-form" onsubmit="return formValidation()" method="post">
+     <div class="container">
+        
+          <div class="register">       
+            <div class="reg">
+                <label for="eesnimi"><b>Eesnimi</b></label>
+                <input name="eesnimi" id="eesnimi" placeholder="Eesnimi" type="text" required>
+            </div> 
+
+            <div class="reg"> 
+                <label for="perekonnanimi"><b>Perekonnanimi</b></label>
+                <input type="text" placeholder="Perekonnanimi" name="perekonnanimi" id="perekonnanimi" required>
+            </div>
+
+            <div class="reg"> 
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Email" name="email" id="email" required>
+            </div>
+            
+            <div class="reg">
+                <label for="parool"><b>Parool</b></label>
+                <input name="parool" placeholder="Parool" id="parool" type="password" required>
+            </div> 
+
+            <div class="reg">
+                <label for="parooluuesti"><b>Parool uuesti</b></label>
+                <input name="parooluuesti" placeholder="Parooluuesti" id="parooluuesti" type="password" required>
+            </div> 
+
+            <div class="reg">
+                <input type="checkbox" id="cb" class="chack-button">
+                <label for="cb" class="chack">Nõustun <a href="#">privaatsuspoliitikaga</a>.</label>
+            </div> 
+
+            <div class="reg">
+                <button class="registerbtn" name="registerbtn" type="submit" >Loo kasutaja</button>
+            </div> 
+          </div>
+      </div> 
+      </form>
+      
+      <header>
+
+        <a href="#" class="logo"><img src="pics/tlü.png" alt="pilt"></a>
+
+        <div class="search">
+
+          <form action="#">
+
+              <input type="text" placeholder=" Otsing..." name="search">
+
+              <button>
+
+                  <i class="fa fa-search"></i>
+
+              </button>
+
+          </form>
+
+      </div>
+
+        <nav class="navbar">
+
+            <a href="avaleht.html">Avaleht</a>
+            <a href="erialad.html">Erialad</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="login.html">Logi sisse</a>
+
+        </nav>
+
+        <div class="follow">
+
+            <a href="https://www.instagram.com/tallinnuniversity/" class="fab fa-instagram"></a>
+            <a href="https://www.facebook.com/tallinna.ylikool/" class="fab fa-facebook"></a>
+            <a href="https://www.tlu.ee/" class="fa-solid fa-house"></a>
+
+        </div>
+
+    </header>
+
+</body>
+</html>
