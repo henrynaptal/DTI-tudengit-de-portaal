@@ -12,7 +12,7 @@
 
 # Eesmärk ja lühikirjeldus
 
-Üleüldine eesmärk on teha lihtne ja tänapäevane lehekülg, kus tudengid saavad oma projekte postitada ning portfooliot arendada. Meie tulevane platvorm on aktuaalne tudengitele, kes on just lõpetamas. See annab neile võimaluse presenteerida oma oskusi ühest kohast, kui nad hakkavad tööd otsima pärast ülikooli. Samuti on meie platvorm kasulik ka õpetajatele. Enam ei ole nii, et peab kusagilt kaustast otsima kellegi tehtud tööd, sest meie lehel on kõik leitav ühest kohast. 
+Üleüldine eesmärk on tudengitele pakkuda lihtne ja tänapäevane lehekülg, kus nad saavad oma projekte postitada ning portfooliot arendada. Meie platvorm on aktuaalne tudengitele, kes on just lõpetamas. See annab neile võimaluse presenteerida oma oskusi ühest kohast, kui nad hakkavad tööd otsima pärast ülikooli. Samuti on meie platvorm kasulik ka õpetajatele. Enam ei ole nii, et peab kusagilt kaustast otsima kellegi tehtud tööd, sest meie lehel on kõik leitav ühest kohast. 
 
 Töö on tehtud Tallinna Ülikooli Digitehnoloogiate instituudi informaatika eriala suvepraktika raames.
 
@@ -42,4 +42,22 @@ Morten-Paul Mühlberg
 
 # Kasutusjuhend
 
-1. 
+1.
+
+2.
+
+
+# Lingid
+
+## Lehekülje aadress 
+
+https://greeny.cs.tlu.ee/~hennap/dti_portaal/avaleht.php
+
+## Dokumentatsioon
+
+https://docs.google.com/document/d/1jLT_aHiDl-26IkF34wLka9-660ksi1O-Uo5TUgfwQ7I/edit?fbclid=IwAR1pgMr_ZOhucqzgPNz746Op1adeBAEXN4qPj5f2KjkDMgEhtz5XRoMDKcM
+
+## Blogi
+
+http://suvepraktika.cs.tlu.ee/2022/ryhm01
+
