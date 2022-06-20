@@ -1,7 +1,14 @@
 # DTI-tudengit-de-portaal
 
+![Screenshot (4)](https://user-images.githubusercontent.com/90316656/174557210-f561a878-9acb-463f-b9ef-5e7b9e45dcfa.png)
 
+![Screenshot (5)](https://user-images.githubusercontent.com/90316656/174557254-10987080-5901-410f-bad2-590d7adf6b88.png)
 
+![Screenshot (6)](https://user-images.githubusercontent.com/90316656/174557305-e461336c-8891-4bdb-bc0a-bd912154b106.png)
+
+![Screenshot (7)](https://user-images.githubusercontent.com/90316656/174557323-c3cd156f-12a4-46ed-a6f2-121d53d7950a.png)
+
+![Screenshot (8)](https://user-images.githubusercontent.com/90316656/174557337-bd4ed5a7-182a-4bd6-92a5-f4334c65be6a.png)
 
 # Eesmärk ja lühikirjeldus
 
@@ -32,3 +39,7 @@ Mari Hõbemets
 Taavet Tenso
 
 Morten-Paul Mühlberg
+
+# Kasutusjuhend
+
+1. 
